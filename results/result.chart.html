@@ -28,7 +28,7 @@
   </head>
   <body>
     <div class="container">
-      <canvas id="chart1647895355654" width="16" height="9"></canvas>
+      <canvas id="chart1647897056361" width="16" height="9"></canvas>
     </div>
     <script>
       const format = (num) => {
@@ -51,18 +51,18 @@
           chunked.map((chunk) => chunk.join('')).join(' ') + fractionStr
         )
       }
-      const ctx1647895355654 = document
-        .getElementById('chart1647895355654')
+      const ctx1647897056361 = document
+        .getElementById('chart1647897056361')
         .getContext('2d')
-      const chart1647895355654 = new Chart(ctx1647895355654, {
+      const chart1647897056361 = new Chart(ctx1647897056361, {
         type: 'bar',
         data: {
-          labels: ["Babel: Async return await","Babel: Return await","Babel: Just return","Es2017: Async return await","Es2017: Return await","Es2017: Just return","Es5: Async return await","Es5: Return await","Es5: Just return","Es6: Async return await","Es6: Return await","Es6: Just return"],
+          labels: ["Babel: async () => await work()","Babel: () => await work()","Es2017: async () => await work()","Es2017: () => await work()","Es5: async () => await work()","Es5: () => await work()","Es6: async () => await work()","Es6: () => await work()","() => work()"],
           datasets: [
             {
-              data: [430587,426640,588665,567514,562436,592947,452784,482863,591850,268626,283406,565702],
-              backgroundColor: ["hsl(87.144, 85%, 55%)","hsl(86.34, 85%, 55%)","hsl(119.136, 85%, 55%)","hsl(114.85199999999999, 85%, 55%)","hsl(113.82, 85%, 55%)","hsl(120, 85%, 55%)","hsl(91.63199999999999, 85%, 55%)","hsl(97.71600000000001, 85%, 55%)","hsl(119.77199999999999, 85%, 55%)","hsl(54.35999999999999, 85%, 55%)","hsl(57.36, 85%, 55%)","hsl(114.49199999999999, 85%, 55%)"],
-              borderColor: ["hsl(87.144, 85%, 55%)","hsl(86.34, 85%, 55%)","hsl(119.136, 85%, 55%)","hsl(114.85199999999999, 85%, 55%)","hsl(113.82, 85%, 55%)","hsl(120, 85%, 55%)","hsl(91.63199999999999, 85%, 55%)","hsl(97.71600000000001, 85%, 55%)","hsl(119.77199999999999, 85%, 55%)","hsl(54.35999999999999, 85%, 55%)","hsl(57.36, 85%, 55%)","hsl(114.49199999999999, 85%, 55%)"],
+              data: [426784,435739,564059,566305,460059,437319,224074,288870,597826],
+              backgroundColor: ["hsl(85.66799999999999, 85%, 55%)","hsl(87.468, 85%, 55%)","hsl(113.21999999999998, 85%, 55%)","hsl(113.676, 85%, 55%)","hsl(92.352, 85%, 55%)","hsl(87.78, 85%, 55%)","hsl(44.976, 85%, 55%)","hsl(57.984, 85%, 55%)","hsl(120, 85%, 55%)"],
+              borderColor: ["hsl(85.66799999999999, 85%, 55%)","hsl(87.468, 85%, 55%)","hsl(113.21999999999998, 85%, 55%)","hsl(113.676, 85%, 55%)","hsl(92.352, 85%, 55%)","hsl(87.78, 85%, 55%)","hsl(44.976, 85%, 55%)","hsl(57.984, 85%, 55%)","hsl(120, 85%, 55%)"],
               borderWidth: 2,
             },
           ],
