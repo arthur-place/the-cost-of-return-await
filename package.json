@@ -1,0 +1,30 @@
+{
+  "name": "the-cost-of-return-await",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sh ./build.sh",
+    "bench": "node bench"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthur-place/the-cost-of-return-await.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arthur-place/the-cost-of-return-await/issues"
+  },
+  "homepage": "https://github.com/arthur-place/the-cost-of-return-await#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "benny": "^3.7.1",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/runtime": "^7.17.8"
+  }
+}
