@@ -21,7 +21,7 @@ Benny.suite(
 
     return [
       Benny.add(`${name}: async () => await work()`, () => doWait()),
-      Benny.add(`${name}: () => await work()`, () => dontWait())
+      Benny.add(`${name}: async () => work()`, () => dontWait())
     ];
   }),
 
