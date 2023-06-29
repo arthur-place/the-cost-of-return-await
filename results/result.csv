@@ -1,10 +1,10 @@
 "name","ops","margin","percentSlower"
 "Babel: async () => await work()",426784,0.76,28.61
-"Babel: () => await work()",435739,0.84,27.11
+"Babel: async () => work()",435739,0.84,27.11
 "Es2017: async () => await work()",564059,0.44,5.65
-"Es2017: () => await work()",566305,0.35,5.27
+"Es2017: async () => work()",566305,0.35,5.27
 "Es5: async () => await work()",460059,0.46,23.04
-"Es5: () => await work()",437319,2.93,26.85
+"Es5: async () => work()",437319,2.93,26.85
 "Es6: async () => await work()",224074,4.98,62.52
-"Es6: () => await work()",288870,1.12,51.68
+"Es6: async () => work()",288870,1.12,51.68
 "() => work()",597826,0.32,0
